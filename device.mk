@@ -21,3 +21,4 @@ PRODUCT_CHARACTERISTICS := tv
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PRODUCT_PATH)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
